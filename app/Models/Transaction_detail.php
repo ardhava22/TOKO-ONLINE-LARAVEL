@@ -11,7 +11,7 @@ class Transaction_detail extends Model
     protected $table = 'transaction_detail';
     protected $fillable = [
         "transaction_id",
-        "movie_id",
+        "barang_id",
         "quantity",
     ];
     public $timestamps = true;
